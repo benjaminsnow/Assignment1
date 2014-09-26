@@ -39,7 +39,7 @@ plot(Orange$age, Orange$circumference,
 # Manipulation of the Orange data set to find the circumference mean value
 
 fun_mean <- function(x) {
-  sum(x) / length(x)
+  sum (x) / length (x)
 }
 
 fun_mean(x = Orange$circumference)
