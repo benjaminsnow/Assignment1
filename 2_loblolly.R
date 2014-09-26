@@ -9,7 +9,7 @@ data(Loblolly)
 names(Loblolly)
 
 
-# Descriptive statistics for Loblolly and create basic plot
+# Descriptive statistics for Loblolly and create basic plot showing age and height
 
 summary(Loblolly)
 
