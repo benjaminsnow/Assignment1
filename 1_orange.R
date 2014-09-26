@@ -18,7 +18,7 @@ data(Orange)
 names(Orange)
 
 
-# Descriptive statistics to explore the Orange data set
+# Descriptive statistics to explore the age and circumference of the Orange trees
 
 summary(Orange)
 
