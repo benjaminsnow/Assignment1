@@ -9,7 +9,7 @@ data()
 
 # Choose specific set and load it
 data(Orange)
-
+# the data set looks at ...
 
 # Explore the Orange data set and its variables to get a first idea of the data
 
