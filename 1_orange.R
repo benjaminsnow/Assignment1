@@ -1,23 +1,24 @@
 #### Introduction to Collaborative Social Science Data Analysis #####
 #### Final Version ### 26.09.2014 ### Oliver Bott & Benjamin Snow ###
 
+# This is the primary data file based on the 'Orange' data set
 
-# Overview of R standard data sets
+# Get overview of R standard data sets
 data() 
 
 
-# Now we choose our specific set and load them 
+# Choose specific set and load it
 data(Orange)
 
 
-# Explore the Orange data set and its variables
+# Explore the Orange data set and its variables to get a first idea of the data
 
 ?Orange
 
 names(Orange)
 
 
-# Descriptive statistics for Orange
+# Descriptive statistics to explore the Orange data set
 
 summary(Orange)
 
