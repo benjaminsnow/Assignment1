@@ -3,24 +3,54 @@
 
 
 # Make use of relative folder paths
-setwd('~/Desktop/Test/')
-source('source1.R')
+
+setwd('~https://github.com/benjaminsnow/Assignment1/')
+
+source('Loblolly.R')
+
 
 # Overview of R standard data sets
 data() 
 
+
 # Now we choose our three specific sets and load them 
-data(LakeHuron)
-data(sunspot.year)
-data(treering)
+data(Orange)
 
-# Explore the data sets
-names(LakeHuron)
-names(sunspot.year)
-names(treering)
 
-# Descriptive statistics
-summary(LakeHuron)
+# Explore the Orange data set and its variables
+
+?Orange
+
+names(Orange)
+
+
+# Descriptive statistics for Orange
+
+summary(Orange)
+
+median(Orange$age)
+
+boxplot(Orange$age, 
+  main = 'Age in days since 1968/12/31')
+
+hist(Orange$circumference, 
+  main = 'Circumference of Orange tree sample', 
+  xlab = 'Circumference at breast height in mm')
+
+plot(Orange$age, Orange$circumference,
+  main = 'Circumference of Orange trees over time', 
+  xlab = 'Age in days since 1968/12/31', 
+  ylab = 'Circumference at breast height in mm')
+
+
+# Manipulation of the Orange data set to find the circumference mean value
+
+fun_mean <- function(x) {
+  sum(x) / length(x)
+}
+
+fun_mean(x = Orange$circumference)
+
 
 # Dynamic linking
 # Step1
@@ -28,4 +58,3 @@ four <- 2+2
 # Step2 Create then new file
 source('~/Desktop/Test/nameofsource')
 
-# Make sure to source RAW GitHub file
