@@ -5,13 +5,21 @@ Assignment1
 ### Background
 This is the repository for the **'Collaborative Social Science Data Analysis'** course taught by @christophergandrud at the Hertie School of Governance.
 
-Using core R data sets 'Orange', which shows the Growth of Orange Trees and 'Nile' which shows the Flow of the River Nile. 
+> Style guide: We use Hadley Wickham´s Style Guide from <a href="r-pkgs.had.co.nz/style.html">r-pkgs.had.co.nz/style.html</a>.
 
-> Note: We pair programmed this assignment together, so while pushes have been down on one computer, work was done collectively.
+Using core R data sets 'Orange' and 'Loblolly', we explore the growth of Orange and Loblolly trees over time.
 
+### Loading data sets 'Orange' and 'Loblolly'
+As indicated by the prefix 1_Orange.R, 'Orange' is the primary data file and should be run first. By copying the commands into R, the file will automatically run the commands set in the 2_Loblolly.R file, as the first file is dynamically linked to the second.
 
 ### Data exploration
 **Orange data set**
-> We ran summary descriptive statistics on (Orange)
+> We explored the data set and its specifications.
+> We ran summary descriptive statistics to explore the growth of Orange trees over time.
+> We created a function in R to find out the mean circumference of the Orange trees in the sample.
 
-**Benjamin Snow & Oliver Bott**
+**Lobolly data set**
+> We explored the data set and its specifications.
+> We ran summary descriptive statistics to explore the growth of Orange trees over time.
+
+> Note: We pair programmed this assignment together, so while pushes have been down on one computer, work was done collectively.
