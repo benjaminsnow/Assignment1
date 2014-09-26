@@ -5,7 +5,7 @@ Assignment 1
 ### Background
 This is the repository for the **'Collaborative Social Science Data Analysis'** course taught by @christophergandrud at the Hertie School of Governance.
 
-> Style guide: We use Hadley Wickham´s Style Guide from <a "r-pkgs.had.co.nz/style.html">r-pkgs.had.co.nz/style.html</a>.
+> Style guide: We use Hadley Wickham´s Style Guide from [r-pkgs.had.co.nz/style.html] (r-pkgs.had.co.nz/style.html).
 
 In our first assignment we use the core R data sets 'Orange' and 'Loblolly' and explore the growth of Orange and Loblolly trees over time.
 
