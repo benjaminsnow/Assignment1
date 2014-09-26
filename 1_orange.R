@@ -47,4 +47,4 @@ fun_mean(x = Orange$circumference)
 
 # Create dynamic link to secondary Loblolly.R file
 
-source('https://raw.githubusercontent.com/benjaminsnow/Assignment1/master/Loblolly.R')
+source('https://raw.githubusercontent.com/benjaminsnow/Assignment1/master/2_loblolly.R')
