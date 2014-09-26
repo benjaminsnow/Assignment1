@@ -1,4 +1,6 @@
-# Explore the Loblolly data set and its variables in R
+# This is the secondary data set
+
+# Explore the Loblolly data set and its variables in R to get an idea of the data set
 
 ?Loblolly
 
@@ -7,7 +9,7 @@ data(Loblolly)
 names(Loblolly)
 
 
-# Descriptive statistics for Loblolly
+# Descriptive statistics for Loblolly and create basic plot
 
 summary(Loblolly)
 
