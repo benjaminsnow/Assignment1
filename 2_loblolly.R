@@ -4,8 +4,6 @@
 
 data(Loblolly)
 
-attach(Loblolly)
-
 names(Loblolly)
 
 
