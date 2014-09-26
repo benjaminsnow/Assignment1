@@ -2,13 +2,6 @@
 #### Final Version ### 26.09.2014 ### Oliver Bott & Benjamin Snow ###
 
 
-# Make use of relative folder paths
-
-setwd('~https://github.com/benjaminsnow/Assignment1/')
-
-source('Loblolly.R')
-
-
 # Overview of R standard data sets
 data() 
 
@@ -52,9 +45,6 @@ fun_mean <- function(x) {
 fun_mean(x = Orange$circumference)
 
 
-# Dynamic linking
-# Step1
-four <- 2+2
-# Step2 Create then new file
-source('~/Desktop/Test/nameofsource')
+# Create dynamic link to secondary Loblolly.R file
 
+source('https://raw.githubusercontent.com/benjaminsnow/Assignment1/master/Loblolly.R')
