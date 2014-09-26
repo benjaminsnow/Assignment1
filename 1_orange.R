@@ -6,7 +6,7 @@
 data() 
 
 
-# Now we choose our three specific sets and load them 
+# Now we choose our specific set and load them 
 data(Orange)
 
 
