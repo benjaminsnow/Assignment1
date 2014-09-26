@@ -45,6 +45,6 @@ fun_mean <- function(x) {
 fun_mean(x = Orange$circumference)
 
 
-# Create dynamic link to secondary Loblolly.R file
+# Create dynamic link to secondary 2_loblolly.R file
 
 source('https://raw.githubusercontent.com/benjaminsnow/Assignment1/master/2_loblolly.R')
