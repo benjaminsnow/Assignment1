@@ -1,6 +1,9 @@
 #### Introduction to Collaborative Social Science Data Analysis #####
 #### Final Version ### 26.09.2014 ### Oliver Bott & Benjamin Snow ###
 
+# Load packages
+library(devtools)
+
 # This is the primary data file based on the 'Orange' data set
 
 # Get overview of R standard data sets
@@ -48,4 +51,4 @@ fun_mean(x = Orange$circumference)
 
 # Create dynamic link to secondary 2_loblolly.R file
 
-source('https://raw.githubusercontent.com/benjaminsnow/Assignment1/master/2_loblolly.R')
+source_url('https://raw.githubusercontent.com/benjaminsnow/Assignment1/master/2_loblolly.R')
